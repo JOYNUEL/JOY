@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=width-device , initial-scale=1">
+        <title>MY PROJECT 2</title>
+    </head>
+   <!--- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+        </script>-->
+    <link rel="stylesheet" href="project2design.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h1 class="logo">Iconic</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="list" id="dropdownClick">
+                    <li><a href="#home"><i class="fa fa-home"></i>Home</a></li>
+                    <li><a href="#contactus"><i class="fa fa-phone"></i>Contact Us</a></li>
+                    <li><a href="#request"><i class="fa fa-sort"></i>Request</a></li>
+                    <li><a href="#about"><i class="fa fa-info-circle"></i>About</a></li>
+                    <li><a href="#login"><i class="fa fa-sign-in"></i>Log in</a></li>
+                    <li class="ham"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+
+                </ul>
+            </nav>
+
+            <script>
+                function dropdownMenu() {
+           var x = document.getElementById("dropdownClick");
+           if (x.className === "list") {
+               x.className += "  responsive";
+               /*change list to list.responsive*/
+           } else {
+               x.className = "list";
+           }
+       }
+
+           </script>
+
+                 <div class="container">
+                 <div class="content">
+                     <div>
+                     <h1>FULL STACK WEB DEVELOPMENT & <br>GRAPHICS DESIGN</h1>
+                 <p>GL Iconic is a platform for both online and virtual web development services and graphic design<br>(logos,branding and many more....) services.
+                We give quality services to our clients and customers anywhere around the world and across Nigeria.<br>
+                We also deal with the Brainstorming of a domain(Business)names for your company,<br> purchase of domains with full security both yearly and monthly.<br>
+                All of these are at affordable prices
+                </div>
+            </div>
+           </p>
+            <button class="btn "><a href="#clicktoplaceyourordernow" class="active">Click to place your order now</a></button>
+        </div>
+
+
+        <div class="form">
+            <h4>Sign in here</h4>
+            <h5>Username</h5>
+            <input type="text" name="text" placeholder="Enter Username">
+            <h5>Password</h5>
+            <input type="password" name="password" placeholder="Enter Password"><br>
+            <button class="sign"><a href="#">Sign In</a></button>
+        </div>
+
+
+
+
+        <footer>
+            <div class="foot">
+                <h4>Contact Us </h4><br>
+                <img src="c:\Users\JOY\OneDrive\Desktop\icon-email.svg" alt="email.icon" width="20px" height="20px"><a href="mailto:{email}?subject={subject}&body{content}">send us a mail</a><br>
+                <p class="para"><i class="fa fa-facebook"></i>Joy Emmanuel</p>
+                <p class="para"><i class="fa fa-telegram"></i>@joy003_yene</p>
+                <p class="para"><i class="fa fa-whatsapp"></i>+234 90 4828 9200</p>
+            </div>
+        </footer>
+
+
+
+
+
+
+        </div>
+        
+    
+        
+    
+        
+
+    </body>
+</html>
